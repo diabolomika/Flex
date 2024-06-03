@@ -1,0 +1,106 @@
+body {
+    font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+  }
+  
+  html, body  { 
+    height: 100%;
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 34px;
+    line-height: 48px;
+    margin: 60px 0 0;
+    font-weight: 900;
+    color: #272044;
+  }
+  h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 48px;
+    margin: 0;
+    color: #8064e9;
+    padding: 0 0 24px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: PT Mono, monospace;
+    margin-bottom: 10px;
+    }
+
+   /* Rows --------- */  
+  .paddingBlock {
+    padding: 20px 0;
+  }
+  
+  .challenge-1,
+  .challenge-2
+  .challenge-3 {
+    display: flex;
+  }
+    #Red,
+    #Blue,
+    #Green
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed red!important;
+    color:black;
+  }
+  .challenge-1{
+    display:flex;
+  }
+
+.challenge-2{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.challenge-3 {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  background-color: lightyellow;
+}
+.challenge-1 > div,
+.challenge-2 > div,
+.challenge-3 > div {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed red;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  }
+  
+  .eq {
+    color: #fff;
+    padding: 10px;
+  }
+  
+
+  .equalHW {
+    flex: row;
+  }
+  
+  .equalHMWrap {
+    justify-content: space-between;
+  }
+  
+  .equalHM {
+    width: 32%;
+  }
+  
+ 
+
+
+
+
+
+
+  
